@@ -16,7 +16,16 @@ end
 
 
   def profile
-  end 
+    token = request.headers["Authorization"]
+
+    decoded_token = JWT.decode(token, 'oliverules',true, {algorithm:'HS256'})
+
+    user_id = decoded_token[0]["user_id"]
+
+    user = User.find(user_id)
+
+    render json:user 
+  end
 
 
 
