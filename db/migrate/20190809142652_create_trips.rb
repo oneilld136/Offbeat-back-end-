@@ -3,8 +3,8 @@ class CreateTrips < ActiveRecord::Migration[5.2]
     create_table :trips do |t|
       t.string :name
       t.string :date
-      t.integer :spot_id
-      t.integer :user_id
+      t.string :tripable_type
+      t.integer :tripable_id
 
       t.timestamps
     end

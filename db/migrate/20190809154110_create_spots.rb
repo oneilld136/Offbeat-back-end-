@@ -2,13 +2,13 @@ class CreateSpots < ActiveRecord::Migration[5.2]
   def change
     create_table :spots do |t|
       t.string :name
-      t.integer :zip_code
+      t.integer :zip
       t.string :address
-      t.string :price_range
-      t.boolean :liked
+      t.string :price
       t.integer :lng
       t.integer :lat
-      t.string :imgURL
+      t.string :img
+      t.string :cat
 
       t.timestamps
     end

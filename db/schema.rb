@@ -10,37 +10,36 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_07_220858) do
+ActiveRecord::Schema.define(version: 2019_08_09_154110) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "likes", force: :cascade do |t|
-    t.integer "user_id"
-    t.integer "spot_id"
+    t.string "likable_type"
+    t.integer "likeable_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "spots", force: :cascade do |t|
     t.string "name"
-    t.integer "zip_code"
+    t.integer "zip"
     t.string "address"
-    t.string "price_range"
-    t.boolean "liked"
+    t.string "price"
     t.integer "lng"
     t.integer "lat"
-    t.string "imgURL"
+    t.string "img"
+    t.string "cat"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "type"
   end
 
   create_table "trips", force: :cascade do |t|
     t.string "name"
     t.string "date"
-    t.integer "spot_id"
-    t.integer "user_id"
+    t.string "tripable_type"
+    t.integer "tripable_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
