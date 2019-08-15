@@ -16,8 +16,14 @@ Like.destroy_all
 
 danielle = User.create(name:"danielle", password:"olive")
 
-lucky_dog = Spot.create(name:"Lucky Dog", zip: 11249, address:"", price: "", lng:56, lat:50, img:"", cat:"dive bar")
+lucky_dog = Spot.create(name:"Lucky Dog", zip:11249, address:"Williamsburg", price: "", lng:56, lat:50, img:"", cat:"Play")
+lucky_dog = Spot.create(name:"Kings Theater", zip: 11249, address:"Crown Heights'", price: "", lng:56, lat:50, img:"", cat:"Culture")
+lucky_dog = Spot.create(name:"Steves Key Lime Pie", zip: 11249, address:"Red Hook", price: "", lng:56, lat:50, img:"", cat:"Eat")
+# lucky_dog = Spot.create(name:"Lucky Dog", zip: 11249, address:"", price: "", lng:56, lat:50, img:"", cat:"dive bar")
 
-trip1 = Trip.create(name:"visit with mom", date:"August 6th", tripable_type"",tripable_id: lucky_dog.id)
 
-like1 = Like.create(likeable_type:"Spot", likeable_id: lucky_dog.id)
+
+
+# trip1 = Trip.create(name:"visit with mom", date:"August 30th", tripable_type"",tripable_id: lucky_dog.id)
+
+# like1 = Like.create(likeable_type:"Spot", likeable_id: lucky_dog.id)
