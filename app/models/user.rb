@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  has_many:likes, as: :likeable
-  has_many:trips, as: :tripable
+  has_many:likes
+  has_many:spots, through: :likes 
   has_secure_password
 end
