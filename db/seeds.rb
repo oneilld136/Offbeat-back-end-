@@ -40,13 +40,13 @@ lovers_rock = Spot.create(name:"Lovers Rock", zip: 11249, address:"Bed-Stuy", pr
 barbes = Spot.create(name:"Barbes", zip: 11249, address:"Park Slope", price: "$$", lng:-73.983890, lat:40.667740, img:"https://s3-media4.fl.yelpcdn.com/bphoto/UoGCwzZYu9WNqAEyxTGCrw/o.jpg", cat:"Play")
 erzulia_cafe = Spot.create(name:"Cafe Erzulie", zip: 11249, address:"Bushwick", price: "$", lng:-73.937250, lat:40.697790, img:"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F68856475%2F220521267443%2F1%2Foriginal.20190816-071858?h=2000&w=720&auto=compress&s=5c439bedce3e8101e079bd3fca0c9b08", cat:"Play")
 alphaville = Spot.create(name:"Alphaville", zip: 11249, address:"Bushwick", price: "$", lng:-73.925860, lat:40.700500, img:"https://static1.squarespace.com/static/587d7b8e893fc0efabd18f4b/5abd48232b6a280141ace8a4/5abd48436d2a73027d72e53e/1522354362555/JeanetteDMoses-alphaville-12.jpg", cat:"Play")
-trans_pecos = Spot.create(name:"Lovers Rock", zip: 11249, address:"Bed-Stuy", price: "$", lng:-73.943619, lat:40.683060, img:"https://s3-media3.fl.yelpcdn.com/bphoto/wkla_-fH4YO0EmVPxXvNOw/o.jpg", cat:"Play")
 brooklyn_steel = Spot.create(name:"Lovers Rock", zip: 11249, address:"Bed-Stuy", price: "$", lng:-73.943619, lat:40.683060, img:"https://s3-media3.fl.yelpcdn.com/bphoto/wkla_-fH4YO0EmVPxXvNOw/o.jpg", cat:"Play")
 trans_pecos = Spot.create(name:"Lovers Rock", zip: 11249, address:"Bed-Stuy", price: "$", lng:-73.943619, lat:40.683060, img:"https://s3-media3.fl.yelpcdn.com/bphoto/wkla_-fH4YO0EmVPxXvNOw/o.jpg", cat:"Play")
 dynaco = Spot.create(name:"Lovers Rock", zip: 11249, address:"Bed-Stuy", price: "$", lng:-73.943619, lat:40.683060, img:"https://s3-media3.fl.yelpcdn.com/bphoto/wkla_-fH4YO0EmVPxXvNOw/o.jpg", cat:"Play")
 ma_n_pa_soul = Spot.create(name:"Lovers Rock", zip: 11249, address:"Bed-Stuy", price: "$", lng:-73.943619, lat:40.683060, img:"https://s3-media3.fl.yelpcdn.com/bphoto/wkla_-fH4YO0EmVPxXvNOw/o.jpg", cat:"Play")
 nam_nam = Spot.create(name:"Lovers Rock", zip: 11249, address:"Bed-Stuy", price: "$", lng:-73.943619, lat:40.683060, img:"https://s3-media3.fl.yelpcdn.com/bphoto/wkla_-fH4YO0EmVPxXvNOw/o.jpg", cat:"Play")
 bia = Spot.create(name:"Lovers Rock", zip: 11249, address:"Bed-Stuy", price: "$", lng:-73.943619, lat:40.683060, img:"https://s3-media3.fl.yelpcdn.com/bphoto/wkla_-fH4YO0EmVPxXvNOw/o.jpg", cat:"Play")
+esme = Spot.create(name:"Lovers Rock", zip: 11249, address:"Bed-Stuy", price: "$", lng:-73.943619, lat:40.683060, img:"https://s3-media3.fl.yelpcdn.com/bphoto/wkla_-fH4YO0EmVPxXvNOw/o.jpg", cat:"Play")
 
 
 

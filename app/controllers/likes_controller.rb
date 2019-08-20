@@ -7,13 +7,18 @@ class LikesController < ApplicationController
   end
 
 def create
-  
+  # byebug
+  id = current_user.id
   spot = Spot.all
-  like = Like.create(likes_params)
-  render json: like
+  like = Like.create(spot_id: likes_params["spot_id"], user_id: id)
+  render json: like.spot
 end
 
-
+# def current_user
+#
+#   user_id = decoded_token[0]["user_id"]
+#   User.find(user_id)
+# end
 
 
 def user_likes
@@ -39,7 +44,7 @@ end
 private
 
 def likes_params
-params.permit(:user_id, :spot_id)
+params.permit(:spot_id)
 end
 
 
